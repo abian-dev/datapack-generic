@@ -25,3 +25,5 @@ To use the generic functions or VFX:
 2. Open the file named `play` or `start` inside that folder.
 3. Copy the example function call provided in the file.
 4. Adjust the parameters as needed for your specific use case.
+
+**Note:** Any parameter labeled as 'function' in the example call must be replaced with a complete, syntactically correct command.
