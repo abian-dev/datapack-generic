@@ -3,3 +3,25 @@ This is a reusable functions folder designed to simplify the use of generic util
 
 If you use this in your project, please provide proper credit.
 Optional but appreciated: link back to this repository.
+
+## Setup Instructions
+*Assumes you already know how to set up datapacks.*
+
+1. Place the `generic` folder inside your datapack's `functions` directory.
+
+2. Run the setup function once using this in-game command:
+   ```mcfunction
+   /function <datapackName>:setup
+
+3. Add the following to your `tick` function:
+   ```mcfunction
+   execute as @e[type=area_effect_cloud] at @s run function <datapackName>:generic/vfx/assign_tasks/to_aecs
+
+Replace `datapackName` with your own namespace.
+
+## How to Use
+To use the generic functions or VFX:
+1. Browse the folders to find the feature you want.
+2. Open the file named `play` or `start` inside that folder.
+3. Copy the example function call provided in the file.
+4. Adjust the parameters as needed for your specific use case.
