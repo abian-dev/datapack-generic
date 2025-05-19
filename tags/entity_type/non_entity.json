@@ -11,6 +11,7 @@
     "minecraft:marker",
     "minecraft:interaction",
     "minecraft:text_display",
+    "minecraft:item_display",
 
     "minecraft:painting",
     "minecraft:item_frame",
@@ -32,6 +33,7 @@
     "minecraft:shulker_bullet",
 
     "minecraft:experience_bottle",
+    "minecraft:experience_orb",
     "minecraft:lingering_potion",
     "minecraft:splash_potion",
 
