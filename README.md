@@ -1,23 +1,22 @@
 ## Description
 This is a reusable functions folder designed to simplify the use of generic utilities and visual effects (VFX) through a single macro command. Originally created for projects like Minecraft SSB, this library is now available for other datapack creators to integrate into their own work.
 
-If you use this in your project, please provide proper credit.
-Optional but appreciated: link back to this repository.
-
 ## Setup Instructions
 *Assumes you already know how to set up datapacks.*
 
 1. Place the `generic` folder inside your datapack's `functions` directory.
 
-2. Run the setup function once using this in-game command:
+2. Import the required tag files into the `tags` folder located in the same directory as your `functions` folder.
+
+3. Run the setup function once using this in-game command:
    ```mcfunction
    /function <datapackName>:setup
 
-3. Add the following to your `tick` function:
+4. Add the following to your `tick` function:
    ```mcfunction
    execute as @e[type=area_effect_cloud] at @s run function <datapackName>:generic/vfx/assign_tasks/to_aecs
 
-Replace `datapackName` with your own namespace.
+5. Use an IDE such as VSCode to replace all instances of `kits:` with your own namespace.
 
 ## How to Use
 To use the generic functions or VFX:
