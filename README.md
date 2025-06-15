@@ -1,3 +1,6 @@
+[![Downloads](https://img.shields.io/github/downloads/abian-dev/Minecraft-Functions-VFX-Datapack/total)](https://github.com/abian-dev/Minecraft-Functions-VFX-Datapack/releases)
+[![Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+
 ## Description
 This is a reusable functions folder designed to simplify the use of generic utilities and visual effects (VFX) through a single macro command. Originally created for projects like Minecraft SSB, this library is now available for other datapack creators to integrate into their own work.
 
@@ -26,3 +29,15 @@ To use the generic functions or VFX:
 4. Adjust the parameters as needed for your specific use case.
 
 **Note:** Any parameter labeled as 'function' in the example call must be replaced with a complete, syntactically correct command.
+
+## Contributors
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/abian-dev">
+        <img src="https://avatars.githubusercontent.com/u/47409192?v=4" width="100" alt="abian-dev" /><br />
+        <sub><b>Abian</b></sub>
+      </a><br />
+    </td>
+  </tr>
+</table>
