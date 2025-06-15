@@ -35,7 +35,7 @@ To use the generic functions or VFX:
   <tr>
     <td align="center">
       <a href="https://github.com/abian-dev">
-        <img src="https://avatars.githubusercontent.com/u/47409192?v=4" width="100" alt="abian-dev" /><br />
+        <img src="https://avatars.githubusercontent.com/u/210317798?v=4" width="100" alt="abian-dev" /><br />
         <sub><b>Abian</b></sub>
       </a><br />
     </td>
